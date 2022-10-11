@@ -1,0 +1,23 @@
+.footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+.footer__item {
+    display: flex;
+    justify-content:flex-end;
+}
+.footer__item-list {
+    padding: 0 10px;
+}
+.footer__link {
+    color: #000;
+    text-decoration: none;
+}
+.footer__span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}

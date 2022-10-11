@@ -25,3 +25,43 @@ h1 {
     border: 0;
     background-color: #f1c40f;
 }
+
+.block__video {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.hotel {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hotel__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.hotel__name {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.hotel__price {
+    margin-top: 15px;
+}
+.hotel__item {
+    margin: 15px 0;
+}
+.hotel__item-text {
+    padding: 5px 0;
+}
