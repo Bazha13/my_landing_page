@@ -9,7 +9,7 @@
     <title>Norway</title>
 </head>
 
-<body>
+<body class="page__wrapper">
     <header class="header">
         <div class="header__nav-logo">
             <img src="img/logo.png" alt="logo_site">
@@ -28,37 +28,44 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="container">
-
+    <main class="container">
         <div class="class__form">
-        <h1>Norway</h1>
-        <form action="https://www.freecodecamp.com/email-submit">
-            <input class="email" name="email" type="email" placeholder="Enter you email adress">
-            <input class="btn" type="submit" value="Get Started" >
-        </form>
-        </div>
-            <div class="features">
-                <img width="50" src="img/svg/dinner.svg" alt="dinner">
+            <h1>Norway</h1>
+            <form action="https://www.freecodecamp.com/email-submit">
+                <input class="email" name="email" type="email" placeholder="Enter you email adress">
+                <input class="form__btn" type="submit" value="Get Started" >
+            </form>
+            </div>
+    <div class="features__main">
+        <div class="features__block">
+                <img class="features__img" src="img/svg/dinner.svg" alt="dinner">
+        <div class="features">    
                 <h2>Dinner included</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam doloremque reiciendis quam
                     accusantium dignissimos inventore voluptatem, nobis recusandae culpa
                     earum porro quibusdam sunt autem! Ratione doloremque harum quod illo aspernatur!</p>
-            </div>
-            <div>
-                <img width="50" src="img/svg/backpack.svg" alt="backpack">
+        </div>
+        </div>
+        <div class="features__block">
+                <img class="features__img" src="img/svg/backpack.svg" alt="backpack">     
+        <div class="features">                   
                 <h2>Leave your backpack in the hotel</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam doloremque reiciendis quam
                     accusantium dignissimos inventore voluptatem, nobis recusandae culpa
                     earum porro quibusdam sunt autem! Ratione doloremque harum quod illo aspernatur!</p>
-            </div>
-            <div>
-                <img width="50" src="img/svg/airplane.svg" alt="airplane">
-                <h2>Transfer from the airport</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam doloremque reiciendis quam
+        </div>
+        </div>
+        <div class="features__block">
+                <img class="features__img" src="img/svg/airplane.svg" alt="airplane">
+    
+        <div class="features">
+                <h2 class="features__name">Transfer from the airport</h2>
+                <p class="features__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam doloremque reiciendis quam
                     accusantium dignissimos inventore voluptatem, nobis recusandae culpa
                     earum porro quibusdam sunt autem! Ratione doloremque harum quod illo aspernatur!</p>
-            </div>
+        </div>
+        </div>
+    </div>   
         <div class="block__video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/zyZAMR56mXY"
                 title="YouTube video player" frameborder="0"
@@ -100,9 +107,9 @@
                 <button class="btn">Select</button>
             </div>
         </div>
-
     </main>
     <footer class="footer">
+        <nav class="footer__nav">
         <ul class="footer__item">
             <li class="footer__item-list">
                 <a class="footer__link" href="#">Privacy</a>
@@ -114,6 +121,7 @@
                 <a class="footer__link" href="#">Contact</a>
             </li>
         </ul>
+    </nav>
         <span class="footer__span">Copyright 2022, Norway</span>
     </footer>
 </body>

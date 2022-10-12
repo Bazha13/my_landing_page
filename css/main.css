@@ -17,20 +17,52 @@ h1 {
     width: 100%;
     padding: 5px;
 }
-.btn {
+.form__btn {
     max-width: 150px;
     width: 100%;
     height: 30px;
     margin: 15px 0;
     border: 0;
     background-color: #f1c40f;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 1em;
 }
+
+.features__main {
+    margin-top: 30px;
+}
+.features__block {
+    display: flex;
+}
+.features__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 20vw;
+    }
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 50vw;
+    padding: 5 px;
+    
+}
+
+
+
+
 
 .block__video {
     display: flex;
     padding-top: 50px;
     justify-content: center;
 }
+
 
 .hotel {
     margin-top: 60px;

@@ -16,6 +16,9 @@
   width: 100%;
   margin: 0 auto;
 }
+.page__wrapper {
+  position: relative;
+}
 
 li {
   list-style: none;
